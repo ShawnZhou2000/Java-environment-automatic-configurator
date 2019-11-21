@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <string.h>
 #include <windows.h>
 #define maxlength 256
@@ -6,7 +6,7 @@ char installPath[maxlength];
 char command1[maxlength];
 char command2[maxlength];
 int main() {
-	printf("ÇëÊäÈëjdk°²×°Â·¾¶:");
+	printf("è¯·è¾“å…¥jdkå®‰è£…è·¯å¾„:");
 	gets(installPath);
 	strcpy(command1, "setx \"Path\" \"");
 	strcat(command1, installPath);
