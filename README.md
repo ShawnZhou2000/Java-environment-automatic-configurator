@@ -1,7 +1,7 @@
 # Java environment automatic configurator
 这是一个用来自动配置Java环境变量的懒人程序
 
-**Developer Wrning：请在使用本程序之前对必要的环境变量值进行备份工作！**
+**Developer Warning：请在使用本程序之前对必要的环境变量值进行备份工作！**
 
 ## 简介
 脑洞来自于菜鸟教程上JSP开发环境搭建的教程，[传送门在此](https://www.runoob.com/jsp/jsp-setup.html)。这个教程上使用了windows系统下cmd的set命令进行环境变量的配置，我跟着做了一下发现确实有效，后来想到是不是可以通过程序完成这件事情，只需要输入JDK的安装目录，它就可以自动完成配置工作。
